@@ -23,3 +23,8 @@ class CompteBancaire{
     }
 
 }
+
+compte1 = new CompteBancaire("Ficello", 1200);
+compte1.depot(200);
+compte1.retrait(33,33);
+compte1.affiche();
